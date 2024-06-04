@@ -1,0 +1,29 @@
+{
+  "name": "boiler-plate-demo-project",
+  "version": "2.0.0",
+  "description": "Test boiler plate",
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamsaNischay/react-boiler-plate.git"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19",
+    "rimraf": "^5.0.7"
+  },
+  "bin": {
+    "create-boilerplate": "./bin/create-app.js"
+  }
+}
