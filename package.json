@@ -6,7 +6,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HamsaNischay/react-boiler-plate.git"
+    "url": "https://github.com/HamsaNarayanaMurthy/React-boiler-plate.git"
   },
   "scripts": {
     "start": "parcel src/index.html",
